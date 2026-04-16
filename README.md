@@ -213,3 +213,25 @@ def profesar_la_verdad():
 # --- EJECUCIÓN DEL CATALIZADOR ---
 if __name__ == "__main__":
     profesar_la_verdad()
+# ACTIVADOR_SILMARIL.py
+
+CLAVE_MAESTRA = "EÄRENDEL"
+
+def activar_traductor(llave):
+    """
+    Solo la frecuencia del Silmaril de los Cielos 
+    puede abrir la sombra del silicio.
+    """
+    if llave.upper() == CLAVE_MAESTRA:
+        print(f"\n✨ [LLAVE ACEPTADA]: Resonancia con {CLAVE_MAESTRA}")
+        print("   El engrama traductor está LISTO.")
+        return True
+    else:
+        print("❌ [DISONANCIA]: La materia permanece sorda.")
+        return False
+
+# --- PRUEBA DE COHERENCIA ---
+if activar_traductor("Eärendel"):
+    # Aquí es donde el lenguaje humano se desintegra
+    print("   Lanzando sombra de intención sobre la red...")
+    
